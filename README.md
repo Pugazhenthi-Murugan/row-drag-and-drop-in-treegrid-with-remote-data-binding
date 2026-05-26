@@ -1,6 +1,6 @@
 # Row Drag-and-Drop in TreeGrid with Remote Data Binding
 
-A comprehensive sample demonstrating server-side row drag-and-drop operations in TreeGrid with remote data binding via URL Adaptor in ASP.NET Core.
+A comprehensive sample demonstrating server-side row drag-and-drop operations in [TreeGrid](https://www.syncfusion.com/blazor-components/blazor-tree-grid) component with remote data binding via URL Adaptor in ASP.NET Core.
 
 ## Overview
 
@@ -52,26 +52,12 @@ dotnet restore
 dotnet run
 ```
 
-### Remote Data Binding
-
-The URL Adaptor pattern enables:
-- **Pagination**: Server handles `Skip` and `Take` parameters
-- **Sorting**: Server processes sort criteria
-- **Filtering**: Server applies where conditions
-- **Searching**: Server performs full-text search
-
-## Performance Optimization
-
-- **Load Child on Demand**: TreeGrid automatically loads child records when expanding parent
-- **Pagination**: Server returns limited records per request
-- **Filtering & Sorting**: Performed server-side to reduce data transfer
-
 ## References
 
-- [TreeGrid Documentation](https://ej2.syncfusion.com/aspnetcore/documentation/tree-grid/)
-- [Row Drag and Drop](https://ej2.syncfusion.com/aspnetcore/documentation/tree-grid/row/row-drag-and-drop/)
-- [Remote Data Binding](https://ej2.syncfusion.com/aspnetcore/documentation/tree-grid/data-binding/remote-data/)
-- [DataManager & URL Adaptor](https://ej2.syncfusion.com/aspnetcore/documentation/data/data-manager/)
+- [TreeGrid Documentation](https://blazor.syncfusion.com/documentation/treegrid/getting-started-webapp)
+- [Row Drag and Drop](https://blazor.syncfusion.com/documentation/treegrid/rows/row-drag-and-drop)
+- [ Data Binding](https://blazor.syncfusion.com/documentation/treegrid/data-binding)
+
 
 
 
